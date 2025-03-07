@@ -4,7 +4,7 @@ import { getFirestore, collection, addDoc, onSnapshot, orderBy, query, updateDoc
 
 
 const firebaseConfig = {
-    apiKey: "",
+    apiKey: "", // <---- Add API-KEY ! ----
     authDomain: "testi-1e4a7.firebaseapp.com",
     projectId: "testi-1e4a7",
     storageBucket: "testi-1e4a7.firebasestorage.app",
